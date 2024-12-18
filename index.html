@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Accede a AnQui</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container"> 
+    <div class="left-column">
+      <p>Estimado Usuario, queremos compartir esta reflexión el día de hoy: "Hagas lo que hagas, Hazlo Excelente, como si fuese para tu propósito superior". AnQui </p>
+    </div>
+    <div class="right-column">
+      <img src="images/logo-anqui.png" alt="Logo AnQui" id="logo"> 
+
+      <div id="idioma-selector">
+        <select id="idioma">
+          <option value="es">Español</option>
+          <option value="en">English</option>
+           <option value="de">Deutsch</option>
+          <option value="fr">Français</option>
+          <option value="it">Italiano</option>
+          <option value="pt">Português</option>
+          <option value="hi">हिन्दी</option>
+        </select>
+      </div>
+
+      <div class="form-container">
+        <form id="registro-form">
+          <input type="email" id="email" placeholder="Correo electrónico" required>
+          <input type="password" id="password" placeholder="Contraseña" required>
+          <button type="submit" id="boton-crear">Crear cuenta</button>
+          <div class="social-login">
+            <button id="google-login">Registrarse con Google</button>
+          </div>
+        </form>
+        <div class="iniciar-sesion">
+          <a href="#" id="boton-iniciar-sesion">Iniciar sesión</a> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
